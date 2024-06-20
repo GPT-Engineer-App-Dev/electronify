@@ -1,6 +1,6 @@
 import { Box, Flex, Link, Button, Input, InputGroup, InputRightElement } from "@chakra-ui/react";
 import { useState } from "react";
-import { SearchIcon } from "react-icons/ai";
+import { AiOutlineSearch } from "react-icons/ai";
 import { Link as RouterLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -32,7 +32,7 @@ const Navbar = () => {
                 onChange={handleSearchChange}
               />
               <InputRightElement width="4.5rem">
-                <SearchIcon color="gray.300" />
+                <AiOutlineSearch color="gray.300" />
               </InputRightElement>
             </InputGroup>
           </form>
